@@ -17,6 +17,7 @@
                 light_green: '#ABEF5F',
                 gray_color:'#737373',
                 para_color:'#494949',
+                low_light_green:'#ABEF5F80',
               },
               fontFamily:{
                 Manrope:'Manrope',
@@ -36,8 +37,8 @@
 </head>
 <body class="font-Manrope">
     <!-- header section start -->
-     <header class="bg-gray-50">
-        <nav class=" w-11/12 mx-auto">
+     <header class="bg-gray-50 mb-10">
+        <nav class=" w-10/12 mx-auto">
             <div class="navbar">
                 <div class="navbar-start gap-2 items-center">
                     <div class="bg-light_green w-8 h-8 -rotate-45 rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right "></i></div>
@@ -80,15 +81,61 @@
                 </div>
               </div>
         </nav>
-        <div class="text-center  w-11/12 mx-auto ">
+        <div class="text-center  w-10/12 mx-auto pb-5 ">
             <img class="mx-auto" src="assets/banner.png" alt="">
             <h1 class="text-2xl font-extrabold my-8 md:text-6xl">A barn house of this design has a striking appearance</h1>
             <p class="w-full mx-auto text-para_color md:w-9/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-            <div class="navbar-start w-11/12 h-10 mx-auto gap-4 px-2 py-2 rounded-full flex justify-center items-center bg-light_green text-center mt-5 md:w-2/12">
+            <div class="navbar-start w-11/12 h-10 mx-auto gap-2 px-2 py-2 rounded-full flex justify-center items-center bg-low_light_green text-center mt-5 md:w-2/12">
                 <a class=""><h2 class="text-sm font-semibold">View Details</h2></a>
-                <div class="bg-black text-white w-6 h-6 -rotate-45 flex justify-center items-center rounded-full"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="bg-light_green text-black w-6 h-6 -rotate-45 flex justify-center items-center rounded-full"><i class="fa-solid fa-arrow-right"></i></div>
                 
             </div>
         </div>
      </header>
+     <main>
+      <section class="bg-gray-300 relative">
+        <div class="grid items-center justify-center grid-cols-1 md:grid-cols-2 w-10/12 mx-auto gap-8 pt-4 md:pt-24">
+          <div>
+            <div class="navbar-start w-36 mx-auto gap-1 px-2 py-2 rounded-full flex items-center justify-center bg-white md:mx-0">
+              <div class="text-black flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></div>
+              <a class=""><h2 class="text-sm font-semibold">About Us</h2></a>
+            </div>
+            <h1 class="text-3xl font-extrabold my-3 text-center md:text-left">
+              We design thoughtful, liveable spaces
+            </h1>
+            <p class="text-para_color mb-3 text-center md:text-left">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+            <div class="card card-side bg-base-100 shadow-xl pl-4 md:px-8 items-center mb-6">
+              <figure class="w-28 rounded-none  pb-14 md:pb-0">
+                <img 
+                  src="assets/commercial.png"
+                  alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="text-xl font-bold md:2xl">Commercial</h2>
+                <p class="text-para_color">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="card card-side bg-base-100 shadow-xl pl-4 pr-0 md:px-8 items-center mb-5">
+              <figure class="w-28 rounded-none pb-14 md:pb-0">
+                <img
+                  src="assets/residential.png"
+                  alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="text-xl font-bold md:2xl">Residential</h2>
+                <p class="text-para_color">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-5 md:mb-0">
+            <img src="assets/Rectangle.png" alt="">
+          </div>
+        </div>
+        <div  class="border-2 w-32 border-dashed h-20 border-gray-400 absolute top-6 left-16 invisible md:visible">
+          <img src="assets/Vector.png" alt="">
+        </div>
+      </section>
+     </main>
 </body>     
