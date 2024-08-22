@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link:tailwind css and daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css config. -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                light_green: '#ABEF5F',
+                gray_color:'#737373',
+              }
+            } 
+          }
+        }
+      </script>
+      
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .font-Poppins{
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header section start -->
+     <header class="bg-gray-50">
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar">
+                <div class="navbar-start gap-2 items-center">
+                    <div class="bg-light_green w-8 h-8 -rotate-45 rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right "></i></div>
+                  <a class="w-4/12 text-xl"><h2 class="text-4xl font-extrabold">Rinterio</h2></a>
+                </div>
+                <div class="navbar-center hidden lg:flex text-lg font-medium">
+                  <ul class="menu menu-horizontal px-1">
+                      <li class="font-bold"><a>Home</a></li>
+                      <li class="text-gray_color"><a>Services</a></li>
+                      <li class="text-gray_color"><a>Portfolio</a></li>
+                      <li class="text-gray_color"><a>Blogs</a></li>
+                      <li class="text-gray_color"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <div class="flex items-center gap-5 text-lg">
+                    <button class="flex items-center gap-2 font-semibold invisible md:visible">
+                        <div class="bg-white w-10 h-10 rounded-full border-2 border-gray-200 flex justify-center items-center"><i class="fa-solid fa-magnifying-glass text-gray-400"></i></div>
+                        <div class="bg-white w-10 h-10 text-lg  rounded-full border-2 border-gray-200 flex justify-center items-center"><i class="fa-solid fa-cart-shopping text-gray-400"></i></div>
+                    </button>
+                    <div class="navbar-start w-full h-10 mx-auto gap-3 px-2 py-2 rounded-full flex justify-center items-center bg-light_green text-center invisible md:visible">
+                        <a class=""><h2 class="text-sm font-semibold">Book Consult</h2></a>
+                        <div class="bg-black text-white w-6 h-6 -rotate-45 flex justify-center items-center rounded-full"><i class="fa-solid fa-arrow-right"></i></div>
+                        
+                    </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0 ">
+                      <li class="font-bold"><a>Home</a></li>
+                      <li class="text-gray_color"><a>Services</a></li>
+                      <li class="text-gray_color"><a>Portfolio</a></li>
+                      <li class="text-gray_color"><a>Blogs</a></li>
+                      <li class="text-gray_color"><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+     </header>
