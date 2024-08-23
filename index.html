@@ -18,6 +18,10 @@
                 gray_color:'#737373',
                 para_color:'#494949',
                 low_light_green:'#ABEF5F80',
+                rose_color:'#E7C1D3',
+                blue_color:'#77AAEA',
+                light_green_color:'#A4DAC3',
+                yellow_color:'#EFDA6E',
               },
               fontFamily:{
                 Manrope:'Manrope',
@@ -37,7 +41,7 @@
 </head>
 <body class="font-Manrope">
     <!-- header section start -->
-     <header class="bg-gray-50 mb-10">
+     <header class="bg-gradient-to-b from-gray-50 to-white mb-10">
         <nav class=" w-10/12 mx-auto">
             <div class="navbar">
                 <div class="navbar-start gap-2 items-center">
@@ -92,8 +96,8 @@
             </div>
         </div>
      </header>
-     <main>
-      <section class="bg-gray-300 relative">
+     <main class="bg-gray-100">
+      <section class="relative">
         <div class="grid items-center justify-center grid-cols-1 md:grid-cols-2 w-10/12 mx-auto gap-8 pt-4 md:pt-24">
           <div>
             <div class="navbar-start w-36 mx-auto gap-1 px-2 py-2 rounded-full flex items-center justify-center bg-white md:mx-0">
@@ -121,7 +125,7 @@
               <figure class="w-28 rounded-none pb-14 md:pb-0">
                 <img
                   src="assets/residential.png"
-                  alt="Movie" />
+                  alt="Movie"/>
               </figure>
               <div class="card-body">
                 <h2 class="text-xl font-bold md:2xl">Residential</h2>
@@ -135,6 +139,40 @@
         </div>
         <div  class="border-2 w-32 border-dashed h-20 border-gray-400 absolute top-6 left-16 invisible md:visible">
           <img src="assets/Vector.png" alt="">
+        </div>
+      </section>
+      <section class="py-20 w-10/12 mx-auto">
+        <div class="navbar-start w-36 mx-auto gap-1 px-2 py-2 rounded-full flex items-center justify-center bg-white">
+          <div class="text-black flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></div>
+          <a class=""><h2 class="text-sm font-semibold">How we works</h2></a>
+        </div>
+        <h1 class="text-3xl font-extrabold my-3 text-center">
+          Our Works Process
+        </h1>
+        <p class="text-para_color mb-8 text-center w-full  mx-auto md:w-8/12">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="bg-rose_color rounded-lg p-6 ">
+              <img src="assets/concept.png" alt="">
+              <h3 class="text-xl font-bold my-1">Concept</h3>
+              <p class="text-para_color">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            <div class="bg-yellow_color rounded-lg p-6 ">
+              <img src="assets/flow-chart.png" alt="">
+              <h3 class="text-xl font-bold my-1">Design Process</h3>
+              <p class="text-para_color">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            <div class="bg-light_green_color rounded-lg p-6 ">
+              <img src="assets/vision.png" alt="">
+              <h3 class="text-xl font-bold my-1">Supervision</h3>
+              <p class="text-para_color">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            <div class="bg-blue_color rounded-lg p-6 ">
+              <img src="assets/budget-planning.png" alt="">
+              <h3 class="text-xl font-bold my-1">Budget Planning</h3>
+              <p class="text-para_color">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
         </div>
       </section>
      </main>
